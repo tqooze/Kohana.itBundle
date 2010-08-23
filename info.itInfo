@@ -1,0 +1,156 @@
+﻿{
+	menu: [
+		{
+			title: "New Class Generator"
+			menu: [
+				{
+					title: "Controller"
+					menu: [
+						{ item: "bundle.Kohana.snippet.knewctrauto" }
+						{ item: "bundle.Kohana.snippet.knewctrbasic" }
+					]
+				}
+				{
+					title: "Views"
+					menu: [
+						{
+							title: "Automated"
+							menu: [
+								{ item: "bundle.Kohana.snippet.knewhtmlauto" }
+								{ item: "bundle.Kohana.snippet.knewtplauto" }
+								{ item: "bundle.Kohana.snippet.knewsitecfg" }
+							]
+						}
+						{ item: "bundle.Kohana.snippet.knewhtmlbasic" }
+						{ item: "bundle.Kohana.snippet.knewtplclass" }
+					]
+				}
+				{
+					title: "Model"
+					menu: [
+						{ item: "bundle.Kohana.snippet.knewsprig" }
+						{ item: "bundle.Kohana.snippet.knewjelly" }
+					]
+				}
+
+			]
+		}
+		{
+			title: "Database"
+			menu: [
+				{
+				title: "Sprig"
+				menu: [
+					{ item: "bundle.Kohana.snippet.kssqry" }
+					{ item: "bundle.Kohana.snippet.kssload" }
+					{ item: "bundle.Kohana.snippet.kssall" }
+					{ item: "bundle.Kohana.snippet.kcsl" }
+					------------------------------------
+					{ item: "bundle.Kohana.snippet.ksfauto" }
+					{ item: "bundle.Kohana.snippet.ksfbool" }
+					{ item: "bundle.Kohana.snippet.ksfchar" }
+					{ item: "bundle.Kohana.snippet.ksfpwd" }
+					{ item: "bundle.Kohana.snippet.ksffloat" }
+					{ item: "bundle.Kohana.snippet.ksfint" }
+					{ item: "bundle.Kohana.snippet.ksftext" }
+					{ item: "bundle.Kohana.snippet.ksfenum" }
+					{ item: "bundle.Kohana.snippet.ksfemail" }
+					{ item: "bundle.Kohana.snippet.ksftime" }
+					{ item: "bundle.Kohana.snippet.ksfimage" }
+					{ item: "bundle.Kohana.snippet.ksfhasone" }
+					{ item: "bundle.Kohana.snippet.ksfhasmany" }
+					{ item: "bundle.Kohana.snippet.ksfmany" }
+					{ item: "bundle.Kohana.snippet.ksffkey" }
+					]
+				}
+				{
+					title: "Jelly"
+					menu: [
+					]
+				}
+				{
+					title: "ORM"
+					menu: [
+					]
+				}
+				{
+					title: "Query Builder"
+					menu: [
+					]
+				}
+				]
+		}
+		{
+			title: "Utilities"
+			menu: [
+					{ item: "bundle.Kohana.snippet.ketry" }
+					{ item: "bundle.Kohana.snippet.kecatch" }
+					{ item: "bundle.Kohana.snippet.kefinally" }
+					{ item: "bundle.Kohana.snippet.kelog" }
+					{ item: "bundle.Kohana.snippet.kedebug" }
+					------------------------------------
+					{ item: "bundle.Kohana.snippet.klogattach" }
+					{ item: "bundle.Kohana.snippet.klogadd" }
+					{ item: "bundle.Kohana.snippet.kconfigattach" }
+					{ item: "bundle.Kohana.snippet.kdefprod" }
+					------------------------------------
+					{ item: "bundle.Kohana.snippet.kcget" }
+					{ item: "bundle.Kohana.snippet.kcset" }
+					{ item: "bundle.Kohana.snippet.kcdel" }
+					------------------------------------
+					{ item: "bundle.Kohana.snippet.klang" }
+					------------------------------------
+					{ item: "bundle.Kohana.snippet.ksetform" }
+					{ item: "bundle.Kohana.snippet.kfdd" }
+					------------------------------------
+					{ item: "bundle.Kohana.snippet.krouteadd" }
+					------------------------------------
+					{ item: "bundle.Kohana.snippet.ktecho" }
+					{ item: "bundle.Kohana.snippet.ktforeach" }
+					{ item: "bundle.Kohana.snippet.ktreqf" }
+			]
+		}
+		{
+			title: "Modules"
+			menu: [
+				{
+					title: "Auth"
+					menu: [
+						{ item: "bundle.Kohana.snippet.knewauthcfg" }
+						{ item: "bundle.Kohana.snippet.knewoauthcfg" }
+					]
+				}
+				{
+					title: "Cache"
+					menu: [
+					]
+				}
+				{
+					title: "Database"
+					menu: [
+						{ item: "bundle.Kohana.snippet.knewdbcfg" }
+					]
+				}
+				{
+					title: "Image"
+					menu: [
+					]
+				}
+				{
+					title: "profiler"
+					menu: [
+						{ item: "bundle.Kohana.snippet.knewprofcfg" }					
+						{ item: "bundle.Kohana.snippet.kprofview" }
+					]
+				}
+				{
+					title: "Pagination"
+					menu: [
+						{ item: "bundle.Kohana.snippet.knewpagecfg" }
+					]
+				}
+
+			]
+		}
+	]
+}

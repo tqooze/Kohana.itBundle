@@ -1,0 +1,25 @@
+inType is a clone of TextMate for windows which is lightweight and easy to use. Although it was rarely updated but as a free software (current status) it was somewhat a very powerful yet simple code editor for programmer.
+
+This is a bundle designed for kohana and still under major construction. Additional features to add later is a Jelly snippets, ORM snippets and much more including modules and other required snippets.
+
+Features inside:
+
+*  new class generator
+   ->  controller template (basic/pre-made)
+   ->  views
+       -> new pre-made template class
+       -> new basic html
+       -> new basic template class
+   -> model
+      -> new sprig model
+      -> new jelly model
+   -> database
+      -> Sprig fields snippets and select statement (all)
+   -> modules
+      -> few new config files already implemented but still more to go.
+
+
+
+History:
+
+08/24/2010   - the birth
